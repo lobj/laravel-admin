@@ -134,8 +134,14 @@ $grid->disableExport();
 
 #### 禁用批量删除按钮
 ```php
-$grid->disableBatchDeletion();
+$grid->disableBatchDeletion();//貌似不能用
 ```
+
+#### 禁用批量选择
+```php
+$grid->disableRowSelector();
+```
+
 #### 修改行操作按钮
 ```php
 //开启编辑和删除操作
