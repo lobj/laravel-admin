@@ -688,23 +688,11 @@ class Grid
     }
 
     /**
-     * Alias for method `disableCreateButton`.
+     * Disable creation.
      *
      * @return $this
-     *
-     * @deprecated
      */
     public function disableCreation()
-    {
-        return $this->disableCreateButton();
-    }
-
-    /**
-     * Remove create button on grid.
-     *
-     * @return $this
-     */
-    public function disableCreateButton()
     {
         return $this->option('allowCreate', false);
     }
